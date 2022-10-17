@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <div class="title">Weather :)</div>
+        <div class="subtitle">Name - <%= weather.name %></div>
+        <div class="subtitle">Temperature - <%= weather.main.temp  %> K</div>
+         <div class="subtitle">Pressure - <%= weather.main.pressure %>  hPa</div>
+   <div class="subtitle">Humidity - <%= weather.main.humidity %> %</div>
+   <div class="subtitle">Weather - <%= weather.weather[0].main %></div>
+   <div class="subtitle">Description - <%= weather.weather[0].description %></div>
+   <div class="subtitle">Wind Speed - <%= weather.wind.speed %> m/s</div>
+  
+          
+  <!--         <div class="cut"></div>
+          <label for="firstname" class="placeholder">City Name</label>
+        </div> -->
+        
+  <!--       <button type="text" class="submit">submit</button> -->
+      </div>
+    
+</body>
+</html>
